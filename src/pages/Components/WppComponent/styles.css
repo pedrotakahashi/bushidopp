@@ -16,3 +16,11 @@
     margin-bottom: 1rem;
     color: white;
   }
+
+  /* @media only screen and (max-width: 768px) {
+    .icon-wpp-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  } */

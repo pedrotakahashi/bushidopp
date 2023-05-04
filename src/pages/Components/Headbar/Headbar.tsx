@@ -7,10 +7,10 @@ import './styles.css';
 
 const Headbar = () =>{ 
   return (
-    <Navbar collapseOnSelect expand="lg" variant="dark"  className="mt-2 navbarComp">
+    <Navbar collapseOnSelect expand="lg" variant="dark"  className="mt-3 navbarComp">
       <Container>
         <Navbar.Brand href="#home">
-          <img src={logo} alt="FitHouse" style={{width: "14vw", height:'8vh'}}/>
+        <img src={logo} alt="FitHouse" style={{ width: "15vw", height: "auto" }} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
