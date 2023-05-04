@@ -10,7 +10,7 @@ const Headbar = () =>{
     <Navbar collapseOnSelect expand="lg" variant="dark"  className="mt-3 navbarComp">
       <Container>
         <Navbar.Brand href="#home">
-        <img src={logo} alt="FitHouse" style={{ width: "15vw", height: "auto" }} />
+        <img src={logo} alt="FitHouse" style={{ width: "15vw", height: "auto" }} className="logo-fit-house"/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
